@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #005f87;
+}
+
+nav {
+  background-color: #007bb5;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 20px;
+}
+
+.buscador {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.buscador li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.5s ease;
+}
+
+.buscador li a:hover {
+  color: #ffcc00;
+}
+
+.table {
+ border: black;
+  
+
+}
+
+.table th {
+  background-color: #005f87;
+  text-align: center;
+  color: #ffcc00;
+}
+
+table tr {
+  padding: 10px;
+  text-align: left;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.video {
+  width: 80%;
+  max-width: 1000px;
+  height: auto;
+  display: block;
+  margin: 40px auto;
+  border-radius: 100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.capos {
+  display: flex;
+  width: 600px;
+  margin: 40px auto;
+  justify-content: center;
+}
+
+.capos img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 8;
+  transition: 2s ease;
+}
+
+.capos img:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.T1 {
+  text-align: center;
+  color: rgb(234, 236, 90);
+  font-weight: bold;
+}
+
+h1 {
+  color: rgb(234, 236, 90);
+  text-align: center;
+
+}
+.footer {
+  color: black;
+}
+p {
+  color: rgb(234, 236, 90);
+  font-size: 16px;
+  text-align: center;
+}
+
+.CAJAT1 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  line-height: 1.6;
+  background-color: #005f87;
+  text-align: center;
+}
+.CajaCamp{
+width: 200px;
+height: 100px;
+background-color: aquamarine;
+text-align: center;
+display: flex;
+}
+.contenedor {
+ display: flex;
+  justify-content: space-evenly; 
+  align-items: center;           
+  height: 100vh;                 
+  background-color: #005f87;     
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+
+.cuadrocamp {
+ width: 20%;
+  height: 450px;
+  background-color: #007bb5;
+  border: 3px solid #333;
+  
+  
+}
+h4{
+  color: rgb(234, 236, 90);
+  text-align: center;
+}
+
+.Todos{
+  color: black;
+  text-align: center;
+}
+.Todosp{
+  color: black;
+  text-align: center;
+}
