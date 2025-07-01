@@ -1,0 +1,30 @@
+nav {
+  background-color: #007bb5;
+  @include flex-center(flex-start, center);
+  padding: 10px 20px;
+
+  .logo {
+    height: 50px;
+    margin-right: 20px;
+  }
+
+  .buscador {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+
+    li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      @include transition-default(color, 0.5s, ease);
+
+      &:hover {
+        color: #ffcc00;
+      }
+    }
+  }
+}

@@ -1,9 +1,37 @@
+/* === ESTILOS GENERALES === */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #005f87;
 }
 
+body,
+html {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+h1 {
+  color: rgb(234, 236, 90);
+  text-align: center;
+}
+
+h4 {
+  color: rgb(234, 236, 90);
+  text-align: center;
+}
+
+p {
+  color: rgb(234, 236, 90);
+  font-size: 16px;
+  text-align: center;
+}
+
+
+/* === NAVBAR === */
 nav {
   background-color: #007bb5;
   display: flex;
@@ -36,32 +64,8 @@ nav {
   color: #ffcc00;
 }
 
-.table {
- border: black;
-  
 
-}
-
-.table th {
-  background-color: #005f87;
-  text-align: center;
-  color: #ffcc00;
-}
-
-table tr {
-  padding: 10px;
-  text-align: left;
-}
-
-body,
-html {
-  margin: 0;
-  padding: 0;
-  min-height: 100%;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-
+/* === VIDEO DESTACADO === */
 .video {
   width: 80%;
   max-width: 1000px;
@@ -72,6 +76,8 @@ html {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+
+/* === GALERÍA INTERACTIVA === */
 .capos {
   display: flex;
   width: 600px;
@@ -94,24 +100,12 @@ html {
   filter: contrast(120%);
 }
 
+
+/* === TÍTULOS Y CONTENEDORES DE TEXTO === */
 .T1 {
   text-align: center;
   color: rgb(234, 236, 90);
   font-weight: bold;
-}
-
-h1 {
-  color: rgb(234, 236, 90);
-  text-align: center;
-
-}
-.footer {
-  color: black;
-}
-p {
-  color: rgb(234, 236, 90);
-  font-size: 16px;
-  text-align: center;
 }
 
 .CAJAT1 {
@@ -122,42 +116,88 @@ p {
   background-color: #005f87;
   text-align: center;
 }
-.CajaCamp{
-width: 200px;
-height: 100px;
-background-color: aquamarine;
-text-align: center;
-display: flex;
+
+
+/* === TABLA === */
+.table {
+  border: black;
 }
+
+.table th {
+  background-color: #005f87;
+  text-align: center;
+  color: #ffcc00;
+}
+
+table tr {
+  padding: 10px;
+  text-align: left;
+}
+
+
+/* === SECCIÓN CAMPEONES === */
+.CajaCamp {
+  width: 200px;
+  height: 100px;
+  background-color: aquamarine;
+  text-align: center;
+  display: flex;
+}
+
 .contenedor {
- display: flex;
-  justify-content: space-evenly; 
-  align-items: center;           
-  height: 100vh;                 
-  background-color: #005f87;     
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  background-color: #005f87;
   box-sizing: border-box;
   padding: 20px;
 }
 
-
 .cuadrocamp {
- width: 20%;
+  width: 20%;
   height: 450px;
   background-color: #007bb5;
   border: 3px solid #333;
-  
-  
 }
-h4{
-  color: rgb(234, 236, 90);
+
+
+/* === PIE DE PÁGINA Y TEXTOS VARIOS === */
+.footer {
+  color: black;
+}
+
+.Todos {
+  color: black;
   text-align: center;
 }
 
-.Todos{
+.Todosp {
   color: black;
   text-align: center;
 }
-.Todosp{
-  color: black;
-  text-align: center;
+.contenedor-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px;
+}
+
+.contenedor-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.contenedor-scroll::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.cuadrocamp {
+  min-width: 280px;
+  flex: 0 0 auto;
+  padding: 15px;
+  background-color: #007bb5;
+  border: 3px solid #333;
+  color: white;
+  border-radius: 10px;
 }

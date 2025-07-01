@@ -1,0 +1,14 @@
+.contenedor {
+  @include flex-center(space-evenly, center);
+  height: 100vh;
+  background-color: #005f87;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.cuadrocamp {
+  width: 20%;
+  height: 450px;
+  background-color: #007bb5;
+  border: 3px solid #333;
+}
